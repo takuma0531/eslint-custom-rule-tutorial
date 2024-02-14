@@ -1,0 +1,18 @@
+{
+  "name": "eslint-plugin-custom-rules",
+  "version": "1.0.0",
+  "description": "EsLint Plugin for custom rules",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "node $1",
+    "lint": "eslint sample-codes --ext .js --fix"
+  },
+  "author": "Takuma Masaki",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
